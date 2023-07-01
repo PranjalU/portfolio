@@ -1,0 +1,350 @@
+/*  text - colors
+    orange - #E67E22
+    dark orange-#D35400
+    dark - blue - #2E4053*/
+
+*{
+  list-style: none;
+  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  font-family: 'PlusJakarta Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+  width:100%;
+  height:100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)), url(wallpaper.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar{
+   padding: 20px;
+   font-size: 20px;
+   width: 100%;
+}
+.nav-bar a{
+  float: right;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+.nav-bar a:hover{
+   color:#E67E22;
+   text-decoration:underline;
+}
+.intro{
+  margin-top:8%;
+   color: white;
+
+}
+.intro h2{
+  font-weight:700;
+  font-size: 4rem;
+  background: linear-gradient(to right,white, #D35400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+.intro p{
+  padding-top: 10px;
+  font-weight: 200;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/*..........content....*/
+
+.content{
+  width:100%;
+  display: flex;
+  justify-content:space-between;
+}
+.content-image{
+  flex:1;
+  margin-right:100px;
+}
+.content-image img{
+  width:400px;
+  height:100%;
+  flex:1;
+}
+.content-text{
+  margin: 100px 100px 0px 250px;
+  padding-bottom:100px;
+}
+.content-text h2{
+    color:#2E4053;
+    font-size:3rem;
+    font-weight:900;
+}
+.content-text p{
+   padding:10px 20px 0px 0px;
+   color:#2E4053;
+   font-size:1.2rem;
+}
+
+/*.......details.......*/
+.details{
+  padding: 100px 0px 100px 100px;
+  background:linear-gradient(to left,#E67E22,#D35400);
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom:15px;
+}
+.block{
+  margin: 0 10px 0px 0px;
+  width:900px;
+  height:350px;
+  background-color:white;
+  box-shadow:2px 2px 5px grey;
+
+}
+
+.block:hover{
+  opacity:0.7;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px  #2E4053;
+  color:#2E4053;
+}
+.block h3{
+   color:  #2E4053;
+   font-weight:500;
+    font-size:1.5rem;
+    text-decoration: none;
+}
+.block p{
+   margin: 5px 15px 5px 15px;
+   color:  #2E4053;
+   text-decoration: none;
+}
+
+.details-icon{
+  margin-top:60px;
+    width: 150px;
+    height:80px;
+}
+.block-icon1{
+    width:50px;
+    height:50px;
+}
+
+/*.........education.........*/
+.education{
+   display:flex;
+   flex-direction: column;
+   background:linear-gradient(to left,black,#17202A);
+}
+.education h1{
+  margin-top: 50px;
+  color:#2E4053;
+  text-align: center;
+  font-size: 3rem;
+  font-weight:500;
+}
+
+.education-{
+  display: flex;
+  justify-content:center;
+  margin:50px 250px 100px 250px;
+  letter-spacing:1.5px;
+}
+.educa-school{
+   text-align: right;
+   padding-right:20px;
+}
+.educa-college{
+  padding-left: 20px;
+}
+.education h2{
+  margin:10px 0px 15px 0px;
+  font-size:2rem;
+  color: #D35400;
+}
+.education h3{
+  margin: 10px 0px 10px 0px;
+  font-size:1rem;
+
+   color:#D35400;
+}
+.education p{
+   color:#E59866;
+}
+.education hr{
+    width:5px;
+    size:450px;
+    border-left: 3px solid #E59866;
+    border-right:0px;
+    border-top:0px;
+    border-bottom: 0px;
+    border-radius:1px;
+}
+/*.....resume...*/
+.resume{
+  width:100%;
+  height:100%;
+  background:linear-gradient(to left,black,#17202A);
+}
+.resume h3{
+    font-size:1.2rem;
+    padding-bottom:10px;
+    color:#D35400;
+}
+.resume button{
+  width:150px;
+  height: 40px;
+  border: 3px solid #D35400;
+  color:#D35400;
+  background-color: transparent;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-top:20px;
+}
+.resume button:hover{
+  border: 3px solid white;
+  color:white;
+  background-color:#D35400;
+  cursor: pointer;
+}
+.resume p{
+  font-size:2.5rem;
+  font-weight:500;
+  padding-bottom:40px;
+  text-align: center;
+  color:#2E4053;
+}
+.form-container{
+  padding:80px 250px;
+  flex:1;
+}
+.contact-form{
+  display:flex;
+  justify-content: space-evenly;
+  width:100%;
+  height:100%;
+}
+.form-content2{
+  width:100%;
+}
+.form-content{
+  display:flex;
+  flex-direction: column;
+  margin:15px 0px;
+}
+.form-content1{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+}
+.form-content1 textarea{
+   width:90%;
+   height:90px;
+   border: 2px solid #D35400;
+   border-radius:5px;
+   padding: 10px;
+   color:white;
+   background-color: transparent;
+}
+.input-design{
+  width:90%;
+  height:40px;
+  border: 2px solid #D35400;
+  border-radius: 20px;
+  padding:5px 10px;
+  background-color: transparent;
+  color:white;
+}
+
+/*...........skills..............*/
+.skills{
+  display:flex;
+  flex-direction: column;
+   padding-top:100px;
+   padding-bottom: 40px;
+   background:linear-gradient(to bottom ,white,#C0C0C0);
+}
+.skill-head h2{
+  padding:10px;
+  font-size: 3rem;
+  font-weight:900;
+  text-align: center;
+  color:#2E4053;
+}
+
+.skill-container{
+   display:flex;
+   margin:40px 200px 100px 200px;
+
+}
+.skill-about{
+    flex:1;
+    padding:40px 40px 0 40px;
+}
+.skill-about h3{
+   font-size: 1.5rem;
+   color:#2E4053;
+   font-weight: 700;
+}
+.skill-about p{
+  padding:10px 10px 0px 0px;
+  font-size:1rem;
+  color:#2E4053;
+  font-weight: 500;
+}
+.skill-1{
+    flex:1;
+
+}
+.progress-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+.progress{
+    height:15px;
+    line-height: 15px;
+    border-radius: 8px;
+    background: #f0f0f0;
+    margin-bottom:20px;
+    box-shadow: none;
+    overflow: visible;
+}
+.progress-bar{
+  height:15px;
+  position: relative;
+  border-radius:8px;
+    background:linear-gradient(to right,#E67E22,#D35400);
+    animation: fill 4s ease forwards;
+}
+
+.progress-value{
+    display: block;
+    font-size: 13px;
+    color:#2E4053;
+    position: absolute;
+    top: 2.5px;
+    right: 8px;
+}
+@keyframes fill{
+   0%{
+     width:0%;
+   }
+   100%{
+     opacity:1;
+   }
+}
